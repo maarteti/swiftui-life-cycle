@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State var isShowingModal: Bool
-
+    @Environment(\.scenePhase) private var scenePhase
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -29,6 +30,19 @@ struct ContentView: View {
         .onDisappear(perform: {
             print("onDisappear ContentView")
         })
+        .onChange(of: scenePhase) { (phase) in
+            switch phase {
+            case .active:
+                print("active")
+            case .background:
+                print("background")
+            case .inactive:
+                print("inactive")
+            default:
+                print("default")
+                
+            }
+        }
         .sheet(isPresented: $isShowingModal, content: {
             NavigationView {
                 DetailView()
