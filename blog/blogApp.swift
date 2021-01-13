@@ -2,7 +2,7 @@
 //  blogApp.swift
 //  blog
 //
-//  Created by albin.p on 2021/01/13.
+//  Created by maart on 2021/01/13.
 //
 
 import SwiftUI

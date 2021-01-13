@@ -11,6 +11,7 @@
 		4C74828A25AF1BFF00EFD7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C74828925AF1BFF00EFD7D3 /* ContentView.swift */; };
 		4C74828C25AF1C0200EFD7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C74828B25AF1C0200EFD7D3 /* Assets.xcassets */; };
 		4C74828F25AF1C0200EFD7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C74828E25AF1C0200EFD7D3 /* Preview Assets.xcassets */; };
+		4C74829825AF1C6D00EFD7D3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C74829725AF1C6D00EFD7D3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4C74828B25AF1C0200EFD7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C74828E25AF1C0200EFD7D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C74829025AF1C0200EFD7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C74829725AF1C6D00EFD7D3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4C74828725AF1BFF00EFD7D3 /* blogApp.swift */,
 				4C74828925AF1BFF00EFD7D3 /* ContentView.swift */,
+				4C74829725AF1C6D00EFD7D3 /* DetailView.swift */,
 				4C74828B25AF1C0200EFD7D3 /* Assets.xcassets */,
 				4C74829025AF1C0200EFD7D3 /* Info.plist */,
 				4C74828D25AF1C0200EFD7D3 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C74828A25AF1BFF00EFD7D3 /* ContentView.swift in Sources */,
+				4C74829825AF1C6D00EFD7D3 /* DetailView.swift in Sources */,
 				4C74828825AF1BFF00EFD7D3 /* blogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
