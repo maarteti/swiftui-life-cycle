@@ -43,6 +43,9 @@ struct ContentView: View {
                 
             }
         }
+        .onOpenURL(perform: { url in
+            print("url: ", url)
+        })
         .sheet(isPresented: $isShowingModal, content: {
             NavigationView {
                 DetailView()
